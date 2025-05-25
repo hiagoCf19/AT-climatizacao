@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
 const Contact = () => {
   return (
     <section id="contact" className="py-16 px-2  md:py-24 flex justify-center">

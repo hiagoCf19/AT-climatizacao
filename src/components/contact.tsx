@@ -1,8 +1,8 @@
 import { Button } from "./ui/button";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 md:py-24 flex justify-center">
+    <section id="contact" className="py-16 px-2  md:py-24 flex justify-center">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              {/*  <div className="flex items-start gap-4">
                 <div className="h-10 w-10 rounded-full bg-sky-100 flex items-center justify-center flex-shrink-0">
                   <MapPin className="h-5 w-5 text-sky-600" />
                 </div>
@@ -52,25 +52,7 @@ const Contact = () => {
                     Balneário Camboriú, SC, Brazil
                   </p>
                 </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="h-10 w-10 rounded-full bg-sky-100 flex items-center justify-center flex-shrink-0">
-                  <Clock className="h-5 w-5 text-sky-600" />
-                </div>
-                <div>
-                  <h3 className="font-medium mb-1">Horário de funcionamento</h3>
-                  <p className="text-muted-foreground">
-                    Monday - Friday: 8:00 AM - 6:00 PM
-                  </p>
-                  <p className="text-muted-foreground">
-                    Saturday: 9:00 AM - 2:00 PM
-                  </p>
-                  <p className="text-muted-foreground">
-                    24/7 Emergency Service Available
-                  </p>
-                </div>
-              </div>
+              </div> */}
             </div>
           </div>
 

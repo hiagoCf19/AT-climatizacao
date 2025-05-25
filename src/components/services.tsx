@@ -8,7 +8,7 @@ import {
 
 const Services = () => {
   return (
-    <section id="services" className="py-16 md:py-24 flex justify-center">
+    <section id="services" className="py-16 md:py-24 px-2 flex justify-center">
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">

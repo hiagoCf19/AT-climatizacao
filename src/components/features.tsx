@@ -2,10 +2,10 @@ import { Clock, ThermometerSun, CheckCircle2 } from "lucide-react";
 
 const Features = () => {
   return (
-    <section className="bg-sky-50 py-12  flex justify-center">
-      <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-white p-6 rounded-lg shadow-sm flex flex-col items-center text-center">
+    <section className="bg-sky-50 py-12 md:pt-[100px] sm:pt-[100px]   flex justify-center">
+      <div className="container px-2">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-4 md:gap-8">
+          <div className="bg-white p-6  rounded-lg shadow-sm flex flex-col items-center text-center">
             <div className="h-12 w-12 rounded-full bg-sky-100 flex items-center justify-center mb-4">
               <Clock className="h-6 w-6 text-sky-600" />
             </div>

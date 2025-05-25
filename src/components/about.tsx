@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="py-16 md:py-24 bg-gray-50 flex justify-center"
+      className=" px-2 py-16 md:py-24 bg-gray-50 flex justify-center"
     >
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">

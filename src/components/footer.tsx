@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
+            <h3 className="text-lg font-semibold mb-4 text-white">Contato</h3>
             <ul className="space-y-3">
               {/*  <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-sky-400 flex-shrink-0 mt-0.5" />
@@ -141,19 +141,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t text-center border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p>
-            &copy; {new Date().getFullYear()} AT Climatização. Todos os direitos
-            reservados.
+            &copy; {new Date().getFullYear()} AT Climatização. <br /> Todos os
+            direitos reservados.
           </p>
-          <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm hover:text-white transition-colors">
-              Política de provacidade
-            </a>
-            <a href="#" className="text-sm hover:text-white transition-colors">
-              Termos de serviço
-            </a>
-          </div>
         </div>
       </div>
     </footer>

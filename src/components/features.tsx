@@ -9,12 +9,9 @@ const Features = () => {
             <div className="h-12 w-12 rounded-full bg-sky-100 flex items-center justify-center mb-4">
               <Clock className="h-6 w-6 text-sky-600" />
             </div>
-            <h3 className="text-lg font-medium mb-2">
-              24/7 Serviços de emergência
-            </h3>
+            <h3 className="text-lg font-medium mb-2">Serviços de emergência</h3>
             <p className="text-muted-foreground">
-              Disponível 24 horas para suas necessidades emergenciais de ar
-              condicionado.
+              Disponível para suas necessidades emergenciais de ar condicionado.
             </p>
           </div>
 
@@ -24,8 +21,7 @@ const Features = () => {
             </div>
             <h3 className="text-lg font-medium mb-2">Serviço qualificado</h3>
             <p className="text-muted-foreground">
-              Nossa equipe é formada por profissionais altamente treinados e
-              qualificados.
+              Profissional treinado e qualificado.
             </p>
           </div>
 

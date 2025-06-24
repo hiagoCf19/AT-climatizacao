@@ -69,7 +69,12 @@ const Header = () => {
             className="text-zinc-50 bg-sky-600 cursor-pointer hover:bg-sky-700"
             size="sm"
           >
-            Solicitar serviços
+            <a
+              href="https://api.whatsapp.com/send/?phone=554791684583&text&type=phone_number&app_absent=0"
+              target="_blank"
+            >
+              Solicitar serviços
+            </a>
           </Button>
         </div>
 

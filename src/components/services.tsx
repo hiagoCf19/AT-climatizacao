@@ -32,23 +32,19 @@ const Services = () => {
               <ul className="space-y-2 mb-6">
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4 text-green-500" />
-                  <span className="text-sm">Sistemas divididos</span>
+                  <span className="text-sm">Ar codicionado de Janela</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle2 className="h-4 w-4 text-green-500" />
-                  <span className="text-sm">Sistemas de ar centrais</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle2 className="h-4 w-4 text-green-500" />
-                  <span className="text-sm">Mini-splits sem dutos</span>
+                  <span className="text-sm">Ar condicionado-split</span>
                 </li>
               </ul>
-              <a
+              {/* <a
                 href="#"
                 className="inline-flex items-center text-sky-600 text-sm font-medium hover:underline"
               >
                 Ver mais <ArrowRight className="ml-1 h-4 w-4" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -74,12 +70,12 @@ const Services = () => {
                   <span className="text-sm">Troca de peças</span>
                 </li>
               </ul>
-              <a
+              {/* <a
                 href="#"
                 className="inline-flex items-center text-sky-600 text-sm font-medium hover:underline"
               >
                 Ver mais <ArrowRight className="ml-1 h-4 w-4" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -105,12 +101,12 @@ const Services = () => {
                   <span className="text-sm">Manutenção preventiva</span>
                 </li>
               </ul>
-              <a
+              {/* <a
                 href="#"
                 className="inline-flex items-center text-sky-600 text-sm font-medium hover:underline"
               >
                 Ver mais <ArrowRight className="ml-1 h-4 w-4" />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

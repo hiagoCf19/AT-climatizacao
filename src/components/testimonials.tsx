@@ -39,10 +39,10 @@ const Testimonials = () => {
             </p>
             <div className="flex items-center gap-3">
               <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <span className="text-sm font-medium">RM</span>
+                <img src="" alt="" />
               </div>
               <div>
-                <h4 className="font-medium">Ricardo Mendes</h4>
+                <h4 className="font-medium">Samara Seguetto</h4>
                 <p className="text-sm text-muted-foreground">
                   Balneário Camboriú
                 </p>
@@ -68,8 +68,7 @@ const Testimonials = () => {
             </div>
             <p className="italic mb-4">
               "Utilizamos a AT Climatização para a manutenção do nosso prédio de
-              escritórios.Técnico sempre confiável e realiza um trabalho
-              excelente."
+              escritórios.Sempre confiável e realiza um trabalho excelente."
             </p>
             <div className="flex items-center gap-3">
               <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">

@@ -1,5 +1,4 @@
-import { Button } from "./ui/button";
-import { Phone, Mail } from "lucide-react";
+import { Phone, Instagram } from "lucide-react";
 const Contact = () => {
   return (
     <section id="contact" className="py-16 px-2  md:py-24 flex justify-center">
@@ -10,9 +9,8 @@ const Contact = () => {
               Contate-nos
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Tem dúvidas ou precisa agendar um serviço? Entre em contato
-              conosco usando qualquer um dos métodos abaixo ou preenchendo o
-              formulário de contato.
+              Tem duvidas ou precisa agendar um serviço? Entre em contato
+              conosco usando qualquer um dos métodos abaixo
             </p>
 
             <div className="space-y-6">
@@ -26,20 +24,18 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <a
+                href="/ins"
+                className="flex items-start gap-4 bg-transparent shadow-none text-zinc-700"
+              >
                 <div className="h-10 w-10 rounded-full bg-sky-100 flex items-center justify-center flex-shrink-0">
-                  <Mail className="h-5 w-5 text-sky-600" />
+                  <Instagram className="h-5 w-5 text-sky-600" />
                 </div>
                 <div>
-                  <h3 className="font-medium mb-1">Email</h3>
-                  <p className="text-muted-foreground">
-                    contato@atclimatizacao.com
-                  </p>
-                  <p className="text-muted-foreground">
-                    suporte@atclimatizacao.com
-                  </p>
+                  <h3 className="font-medium ">Instagram</h3>
+                  <p className="text-muted-foreground">@atclimatizacao</p>
                 </div>
-              </div>
+              </a>
 
               {/*  <div className="flex items-start gap-4">
                 <div className="h-10 w-10 rounded-full bg-sky-100 flex items-center justify-center flex-shrink-0">
@@ -57,7 +53,7 @@ const Contact = () => {
           </div>
 
           <div>
-            <form className="space-y-6 bg-white p-8 rounded-lg shadow border">
+            {/*   <form className="space-y-6 bg-white p-8 rounded-lg shadow border">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label htmlFor="first-name" className="text-sm font-medium">
@@ -141,7 +137,7 @@ const Contact = () => {
               >
                 Enviar mensagem
               </Button>
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

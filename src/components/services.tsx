@@ -1,10 +1,4 @@
-import {
-  Snowflake,
-  Wind,
-  Wrench,
-  CheckCircle2,
-  ArrowRight,
-} from "lucide-react";
+import { Snowflake, Wind, Wrench, CheckCircle2 } from "lucide-react";
 
 const Services = () => {
   return (

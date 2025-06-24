@@ -25,8 +25,9 @@ const Contact = () => {
               </div>
 
               <a
-                href="/ins"
+                href="https://www.instagram.com/atclimatizacao_?igsh=MXFqeXJneWtueWpuYw%3D%3D"
                 className="flex items-start gap-4 bg-transparent shadow-none text-zinc-700"
+                target="_blank"
               >
                 <div className="h-10 w-10 rounded-full bg-sky-100 flex items-center justify-center flex-shrink-0">
                   <Instagram className="h-5 w-5 text-sky-600" />

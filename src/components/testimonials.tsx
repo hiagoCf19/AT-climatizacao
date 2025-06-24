@@ -1,3 +1,4 @@
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const Testimonials = () => {
   return (
     <section
@@ -33,14 +34,15 @@ const Testimonials = () => {
               ))}
             </div>
             <p className="italic mb-4">
-              "O técnico da AT Climatização foi profissional, experiente e
+              O técnico da AT Climatização foi profissional, experiente e
               consertou nosso ar condicionado rapidamente. Ótimo serviço a um
-              preço justo!"
+              preço justo!
             </p>
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <img src="" alt="" />
-              </div>
+              <Avatar className="size-16">
+                <AvatarImage src="/samara.jpeg" className="object-cover" />
+                <AvatarFallback>CN</AvatarFallback>
+              </Avatar>
               <div>
                 <h4 className="font-medium">Samara Seguetto</h4>
                 <p className="text-sm text-muted-foreground">
@@ -103,9 +105,10 @@ const Testimonials = () => {
               rapidamente. Recomendo muito!"
             </p>
             <div className="flex items-center gap-3">
-              <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <span className="text-sm font-medium">CP</span>
-              </div>
+              <Avatar className="size-16">
+                <AvatarImage src="/carlos.png" className="object-cover" />
+                <AvatarFallback>CP</AvatarFallback>
+              </Avatar>
               <div>
                 <h4 className="font-medium">Carlos Pereira</h4>
                 <p className="text-sm text-muted-foreground">

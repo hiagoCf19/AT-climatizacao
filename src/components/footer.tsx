@@ -141,7 +141,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t text-center border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t text-center md:justify-center border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p>
             &copy; {new Date().getFullYear()} AT Climatização. <br /> Todos os
             direitos reservados.

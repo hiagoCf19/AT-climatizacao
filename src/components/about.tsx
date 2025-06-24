@@ -20,7 +20,7 @@ const About = () => {
               Sobre AT Climatização
             </h2>
             <p className="text-lg text-muted-foreground mb-6"></p>
-            <p className="text-lg text-muted-foreground mb-6 text-center">
+            <p className="text-lg text-muted-foreground mb-6  text-justify">
               Profissional especializado em ar-condicionado, com foco em
               qualidade, capricho e respeito ao ambiente do cliente. Realiza
               cada serviço com extrema atenção aos detalhes, garantindo um
